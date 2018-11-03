@@ -7,4 +7,4 @@ The initation task consists of learning Arduino, Flask, Python, PySerial and ROS
 
 ## Spacecraft Division
 
-THe initiation task consists of researching and compiling information on software development practice in the spacecraft industry.
+The initiation task consists of researching and compiling information on software development practice in the spacecraft industry.

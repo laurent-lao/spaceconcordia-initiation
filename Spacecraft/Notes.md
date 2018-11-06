@@ -48,3 +48,29 @@ A software can be generalised into these attributes to qualify its quality (acco
 * Dependability
 * Efficiency
 * Usability
+
+
+Weinberg has these four targets when it comes to good programming:
+* Does a program meet its specifications
+* Is the program produced on schedule (and within budget)?
+* How daptable is the program to cope with changing requirements?
+* Is the program efficient enough for the environment in which it is used?
+
+Hoare has these seventeen objectives to meet for good programs:
+* Clear definition of purpose
+* Simplicity of use
+* Ruggedness
+* Early availability
+* Reliability
+* Extensibility in the light of experience
+* Brevity
+* Efficiency
+* Minimum cost to develop
+* Conformity to any relevant standards
+* Clear, accurate, and precise user documents 
+
+# CubeSat
+
+## [CubeSat Wiki](https://en.wikipedia.org/wiki/CubeSat)
+
+### A miniaturized satellite for space research

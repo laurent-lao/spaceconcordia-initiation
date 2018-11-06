@@ -20,10 +20,10 @@ void loop() {
 
   //Data obtained is between 0 and 1023
   float reading;
-  reading = analogRead(temperaturePin)
+  reading = analogRead(temperaturePin);
 
   //Output data
-  Serial.print(reading);
+  Serial.println(reading, DEC);
 
   //Repeat once per second
   delay(1000);

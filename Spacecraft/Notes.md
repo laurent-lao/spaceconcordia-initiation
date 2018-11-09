@@ -42,6 +42,28 @@ Requirements are outlined in product requirements documents. They are then analy
 
 ### A risk-driven software development process model
 
+#### The Six Invariants
+
+* Define Artifacts concurrently
+* Perform four basic activities in every cycle
+	* Consider win conditions of all success-critical stakeholders
+	* Identify and evaluate alternative approaches for satisfying the win conditions
+	* Identify and resolve risks that stem for the selected approaches
+	* Obtain approval from all success-critical stakeholders, plus commitment to pursue the next cycle
+* Risk determines level of effort
+	* Project team must determine how much effort is enough
+	* Testing should be performed until the total risk is minimized, and no further
+* Risk determines degree of details
+	* Project team must determine how much detail is enough
+	* Precise specifications can reduce or increase risks depending on features
+* Use anchor point milestones
+	* Life Cycle Objectives
+	* Life Cycle Architecture
+	* Initial Operational Capabilitiy
+* Focus on the system and its life cycle
+	* Highlights importance of the overall system and the long-term concerns spanning its entire life cycle
+
+
 ## [Software Documentation types](https://www.altexsoft.com/blog/business/software-documentation-types-and-best-practices/)
 
 ### A list of types of documentation

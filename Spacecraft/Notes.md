@@ -34,7 +34,7 @@ Requirements are outlined in product requirements documents. They are then analy
 ### Created in response to inefficiencies and problems with the waterfall model
 
 * Incremental Iterative development in cycles
-* Learning during development of ealier parts or versions of the sysem
+* Learning during development of ealier parts or versions of the system
 * Initialization step, the iteration step and the Project Control List.
 * Differs from Waterfall model. User involvement only in requirements part in Waterfall model, but in Incremental, client is involved at every stage. Product is delivered to the user and only after go from user can they continue.
 

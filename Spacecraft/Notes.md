@@ -29,6 +29,44 @@ Scrum leaves it up to the development team to figure how best to proceed and sol
 
 Requirements are outlined in product requirements documents. They are then analysed to produce models, schema and business rules. These would form a framework for the software architecture. The coding phase is where development and integration happens. Finally, testing and operations go hand in hand, with the debugging of defects and the maintenance, installation of completed systems.
 
+## [Iterative and Incremental Development](https://en.wikipedia.org/wiki/Iterative_and_incremental_development)
+
+### Created in response to inefficiencies and problems with the waterfall model
+
+* Incremental Iterative development in cycles
+* Learning during development of ealier parts or versions of the sysem
+* Initialization step, the iteration step and the Project Control List.
+* Differs from Waterfall model. User involvement only in requirements part in Waterfall model, but in Incremental, client is involved at every stage. Product is delivered to the user and only after go from user can they continue.
+
+## [Spiral Model](https://en.wikipedia.org/wiki/Spiral_model)
+
+### A risk-driven software development process model
+
+## [Software Documentation types](https://www.altexsoft.com/blog/business/software-documentation-types-and-best-practices/)
+
+### A list of types of documentation
+
+## [Avionics software process](https://en.wikipedia.org/wiki/Avionics_software)
+
+### Rigorous development process
+
+* Development process is required by law and is optimized for safety. Eliminating mistakes is priority.
+* Based on outputs called verified "deliverables". Waterfall model.
+* Human interfaces, Hazard analysis, Maintenance manual, Design and specification documents, Code production and review (Static code analysis), Unit testing, Integration testing, Black box and acceptance testing and Certification.
+
+## [OMG's Space Industry page](https://www.omg.org/industries/space.htm)
+
+### Standards-based requirements are the future of space technology
+
+* Space Domain Task Force
+* Ground Equipment Monitoring Service
+* XTCE Telemetry and Command Exchange
+* XTCE US Gov Satellite Conformance Profile
+* Spacecraft Operations Language Metamodel
+* *UML*
+	* Designing software applications before coding. Helps specify, visualize and document models of software systems, including their structure and design, in a way that lets architect work at a higher level of abstraction and focus on the big picture.
+* Data Distribution Service
+
 ## [Best Coding Practices](https://en.wikipedia.org/wiki/Best_coding_practices)
 
 ### Set of informal rules to improve quality of software
@@ -88,8 +126,6 @@ The Power of 10 consists of 10 verifiable, strict and clear set of coding rules 
 
 ### A miniaturized satellite for space research
 
-#### Facts
-
 * 10x10x10 cubes and made of aluminum alloy.
 * History: 1999, and first launched in 2003. Simplified microsatellite development.
 * Launcher-payload encapsulation
@@ -103,4 +139,42 @@ The Power of 10 consists of 10 verifiable, strict and clear set of coding rules 
 
 ## [Cubesat Space Protocol](https://en.wikipedia.org/wiki/Cubesat_Space_Protocol)
 
-### 
+### A network-layer delivery protocol
+
+* Written in C and ported to run on FreeRTOS and POSIX and pthreads-based OS like Linux
+* TCP/IP like
+
+## [Architecture-based Design: A Satellite On-Baord Software Case Study](https://www-verimag.imag.fr/~sifakis/papers_pdfs/Architecture-based%20DesignRep.pdf)
+
+### Architecture styles
+
+* Mutual exclusion style
+* Client-server style
+* Action flow style
+* Action flow with abort style
+* Failure monitoring style
+* Mode management style
+* Buffer management style
+* Event monitoring style
+
+## Flight Software Framework for Satellites
+
+* [Intrepid System]
+* [KUBOS](https://www.kubos.com/)
+* RTOS
+	* [FreeRTOS](https://www.freertos.org/)
+	* [RTLinux](https://en.wikipedia.org/wiki/RTLinux)
+	* [eCos](https://www.ecoscentric.com/ecos/)
+	* [RODOS](https://en.wikipedia.org/wiki/Rodos_%28operating_system%29)
+	* [Salvo](http://pumpkininc.com/)
+* 
+
+### Other things to take into consideration
+
+* Might want threads and similar protection against bit flip
+* Keep default build or gold build (never updated) of the previous version as default boot in the event of a reset
+* Or, 3 layers of software: bootloader, loads second layer that allows communication to satellite and then loads third layer which contains useful code, which can be updated
+
+
+
+

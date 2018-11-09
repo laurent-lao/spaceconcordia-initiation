@@ -85,7 +85,7 @@ Requirements are outlined in product requirements documents. They are then analy
 * XTCE Telemetry and Command Exchange
 * XTCE US Gov Satellite Conformance Profile
 * Spacecraft Operations Language Metamodel
-* *UML*
+* **UML**
 	* Designing software applications before coding. Helps specify, visualize and document models of software systems, including their structure and design, in a way that lets architect work at a higher level of abstraction and focus on the big picture.
 * Data Distribution Service
 
@@ -189,7 +189,6 @@ The Power of 10 consists of 10 verifiable, strict and clear set of coding rules 
 	* [eCos](https://www.ecoscentric.com/ecos/)
 	* [RODOS](https://en.wikipedia.org/wiki/Rodos_%28operating_system%29)
 	* [Salvo](http://pumpkininc.com/)
-* 
 
 ### Other things to take into consideration
 

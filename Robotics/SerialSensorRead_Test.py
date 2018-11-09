@@ -9,6 +9,7 @@ def convert_into_temperature(sensor, sensor_const):
 	# 0-1023 into 0.0-5.0 voltage value
 	voltage = sensor * (0.004882812)
 
+	# debug
 	print(" Voltage: " + str(voltage))
 
 	# voltage into celcius
